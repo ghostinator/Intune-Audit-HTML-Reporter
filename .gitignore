@@ -1,0 +1,20 @@
+# Ignore the backup folder containing client data
+IntuneBackup/
+IntuneDocs/
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore environment variables or auth files
+.env
+auth.json
+token.json
+.intunecd_token
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
